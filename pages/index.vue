@@ -1,7 +1,11 @@
 <template>
-  <Tutorial/>
+  <posts-page/>
 </template>
 
 <script>
-export default {}
+import PostsPage from '~/components/pages/PostsPage'
+export default {
+  components: { PostsPage },
+  layout: 'post-layout'
+}
 </script>
